@@ -16,14 +16,23 @@ div{
 
 
 .lvl{
-    padding: 0 10px 0 10px;
+    padding : 1rem;
     width: 25%;
 }
 
 .character-name, .race , .class{
-    padding: 20px;
+    padding: 1rem;
     width: 25%;
 }
+
+.row-content.character-name{
+    font-size: 3vw;
+}
+
+.row-content.class{
+    font-size: 3vw;
+}
+
 .sheet-table{
     display: flex;
     flex-direction: column;
