@@ -1,0 +1,43 @@
+img{
+    height: 60px;
+    width: 60px;
+}
+
+div{
+    border: black solid thin;
+}
+
+
+.lvl{
+    padding: 0 10px 0 10px;
+}
+
+.character-name, .race , .class{
+    padding: 20px;
+}
+
+
+  
+.sheet-table{
+   display: table;
+   width: 100%; 
+}
+
+.row-wrap {
+   display: table-row;
+}
+
+.info-cap {
+   display: table-header-group;
+   width: 100%; 
+}
+
+.row-content , .info-cap {
+   display: table-cell; 
+   width: 100%;
+}
+
+
+  @media all  and (min-width: 600px) {
+    
+}
